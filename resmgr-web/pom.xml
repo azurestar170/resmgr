@@ -12,6 +12,11 @@
   <packaging>war</packaging>
   <dependencies>
     <dependency>
+      <groupId>name.az170</groupId>
+      <artifactId>resmgr-core</artifactId>
+      <version>${version}</version>
+    </dependency>
+    <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-webmvc</artifactId>
       <version>${spring.version}</version>
