@@ -16,7 +16,7 @@ public class TestController {
     @RequestMapping("/test")
     @ResponseBody
     public String test() {
-        resourceSrv.test();
+//        resourceSrv.test();
         return "Ok.";
     }
     

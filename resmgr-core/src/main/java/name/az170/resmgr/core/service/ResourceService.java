@@ -1,7 +1,7 @@
 package name.az170.resmgr.core.service;
 
-public interface ResourceService {
-    
-    void test();
+import name.az170.resmgr.core.domain.Resource;
 
+public interface ResourceService extends BaseService<Resource> {
+    
 }
